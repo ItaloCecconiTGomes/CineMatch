@@ -24,6 +24,23 @@ public class Usuario {
 		IDADE = idade;
 		PERFIL = perfil;
 	}
+
+	public String getNOME() {
+		return NOME;
+	}
+
+	public int getIDADE() {
+		return IDADE;
+	}
+
+	public PerfilCinefilo getPERFIL() {
+		return PERFIL;
+	}
+
+	@Override
+	public String toString() {
+		return "Usuario [NOME=" + NOME + ", IDADE=" + IDADE + "]";
+	}
 	
 	
 	
