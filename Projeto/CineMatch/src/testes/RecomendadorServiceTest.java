@@ -1,4 +1,4 @@
-package testes.java;
+package testes;
 
 public class RecomendadorServiceTest {
 
