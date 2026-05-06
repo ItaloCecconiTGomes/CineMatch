@@ -4,5 +4,5 @@
 /**
  * 
  */
-module cineMatch {
+module CineMatch {
 }
