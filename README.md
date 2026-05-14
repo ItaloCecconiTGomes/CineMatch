@@ -56,19 +56,48 @@ O fluxo principal da recomendação é:
 ## 🗂️ Estrutura do Projeto
 
 ```bash
-src/
-├── main/java/
-│ ├── model/
-│ ├── service/
-│ ├── exception/
-│ └── util/
+AgileMovies/
 │
-└── test/java/
- ├── PerfilCinefiloTest.java
- ├── CalculadoraScoreTest.java
- ├── FiltroFilmesTest.java
- ├── RecomendadorServiceTest.java
- └── FilmeTest.java
+├── src/
+│   ├── application/
+│   │   └── Program.java
+│   │
+│   ├── exception/
+│   │   ├── DuracaoInvalidaException.java
+│   │   ├── PerfilIncompletoException.java
+│   │   └── PesoInvalidoException.java
+│   │
+│   ├── model/
+│   │   ├── Filme.java
+│   │   ├── PerfilCinefilo.java
+│   │   ├── Recomendacao.java
+│   │   ├── Usuario.java
+│   │   │
+│   │   └── enums/
+│   │       ├── ClassificacaoEtaria.java
+│   │       ├── Genero.java
+│   │       └── Idioma.java
+│   │
+│   ├── service/
+│   │   ├── CalculadoraScore.java
+│   │   ├── CatalogoFilmesAPI.java
+│   │   ├── FiltroFilmes.java
+│   │   ├── HistoricoUsuarioRepository.java
+│   │   ├── NotificadorPush.java
+│   │   └── RecomendadorService.java
+│   │
+│   ├── util/
+│   │   └── GeradorAleatorio.java
+│   │
+│   └── testes/
+│       ├── CalculadoraScoreTest.java
+│       ├── FilmeTest.java
+│       ├── FiltroFilmesTest.java
+│       ├── PerfilCinefiloTest.java
+│       └── RecomendadorServiceTest.java
+│
+├── pom.xml
+└── README.md
 ```
 
 ---
