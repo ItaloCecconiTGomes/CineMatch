@@ -182,7 +182,7 @@ O projeto possui:
 ### Clonar o repositório
 
 ```bash
-git clone https://github.com/seu-usuario/agile-movies.git
+git clone https://github.com/ItaloCecconiTGomes/CineMatch.git
 ```
 
 ### Entrar na pasta
